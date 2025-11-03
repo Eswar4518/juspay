@@ -35,3 +35,7 @@
   }
 }
 "homepage": "https://Eswar4518.github.io/juspay"
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
